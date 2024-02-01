@@ -22,6 +22,8 @@ El chatbot está diseñado para facilitar la comprensión y el acceso a los comp
 
 Obtén un vistazo de la interfaz amigable de BOAResponde, diseñada para una experiencia de usuario atractiva e interactiva.
 
+![BOAResponde User Interface](./src/static/boletinUI.png)
+
 La interfaz proporciona un entorno limpio e intuitivo para que los usuarios interactúen con el chatbot y exploren los temas del Boletín Oficial. Con un diseño sencillo, acceder a la información y realizar análisis es eficiente y agradable.
 
 ## Instalación y Configuración

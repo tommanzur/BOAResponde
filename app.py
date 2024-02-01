@@ -22,7 +22,7 @@ documents = SimpleDirectoryReader('./documents').load_data()
 llm = Gemini(temperature=0.1, model="gemini-pro")
 
 db = chromadb.PersistentClient(path="./chroma_db_HF")
-chroma_collection = db.get_or_create_collection("Tesis_Tomas_Manzur")
+chroma_collection = db.get_or_create_collection("boletin")
 vector_store = ChromaVectorStore(chroma_collection=chroma_collection)
 
 svc = ServiceContext.from_defaults(embed_model=embed_model,llm=llm)
